@@ -1,0 +1,8 @@
+services:
+  gemini:
+    build: .
+    container_name: gemini
+    tty: true
+    volumes:
+      - ./.gemini:/root/.gemini
+      - ./app:/app
