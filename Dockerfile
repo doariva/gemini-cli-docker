@@ -4,4 +4,4 @@ RUN npm install -g @google/gemini-cli
 
 WORKDIR /app
 
-CMD ["bash"]
+ENTRYPOINT ["sleep", "infinity"]

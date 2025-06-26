@@ -13,6 +13,9 @@ This project provides a simple way to run the Gemini CLI in a Docker container, 
 docker compose build
 docker compose up -d
 docker compose exec gemini bash
+
+# In container
+gemini --show_memory_usage
 ```
 ### ⚠️ One-Time Setup (on GUI-enabled machine)
 

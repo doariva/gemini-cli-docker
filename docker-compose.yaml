@@ -2,6 +2,7 @@ services:
   gemini:
     build: .
     container_name: gemini
+    stdin_open: true
     tty: true
     volumes:
       - ./.gemini:/root/.gemini
